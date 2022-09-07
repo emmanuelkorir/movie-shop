@@ -19,7 +19,7 @@ function Header() {
               <Nav.Link>
                 <i class="fa-solid fa-cart-shopping"></i>
               </Nav.Link>
-              <NavDropdown title="User" id="user">
+              <NavDropdown>
                 <NavDropdown.Item href="/profile">
                   Profile
                 </NavDropdown.Item>
