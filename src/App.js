@@ -23,13 +23,11 @@ import ProductListScreen from './pages/ProductListScreen';
 import ProductEditScreen from './pages/ProductEditScreen';
 import OrderListScreen from './pages/OrderListScreen';
 import Footer from './components/Footer';
-import TopRatedCarousel from './components/TopRatedCarousel';
 
 function App() {
   return (
     <Router>
       <Header />
-      <TopRatedCarousel />
       <div className="App">
         <main className="py-3">
           <Container>
