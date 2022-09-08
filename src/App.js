@@ -23,12 +23,13 @@ import ProductListScreen from './pages/ProductListScreen';
 import ProductEditScreen from './pages/ProductEditScreen';
 import OrderListScreen from './pages/OrderListScreen';
 import Footer from './components/Footer';
+import FormContainer from './components/FormContainer';
 
 function App() {
   return (
     <Router>
+      <Header />
       <div className="App">
-        <Header />
         <main className="py-3">
           <Container>
             <Routes>
